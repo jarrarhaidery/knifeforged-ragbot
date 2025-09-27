@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ragbot_env/
+
+# Data / DBs / embeddings
+data/
+*.faiss
+*.sqlite
+*.db
+*.json
+*.txt
+chroma_db/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment variables
+.env
